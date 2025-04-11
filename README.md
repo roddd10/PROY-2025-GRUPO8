@@ -15,7 +15,17 @@ Repositorio del grupo 8 para el proyecto del ramo *Proyecto Inicial* – 2025.
 
 ## 📝 Descripción breve del proyecto
 
-> *Aquí va una descripción general del proyecto, incluyendo su propósito, contexto dentro del curso y motivación.*
+> nuestra idea es un tablero proyectado interactivo el cual tenga un historial en tiempo real sobre la partida
+nuestra primera fase de este proyecto será proyectar tableros de distintos juegos de mesa, permitiendo cambiar entre ellos sin necesidad de tableros y cartas físicas.
+Luego, queremos mejorar la interacción mediante el uso de cámaras o sensores que detecten el movimiento de los jugadores, haciendo que el sistema reaccione automáticamente a las jugadas.
+esto permitiría que las personas que jueguen ajedrez tengan un historial en tiempo real de todos sus movimientos de la partida sin necesidad de ir anotándolos ellos mismos.
+Esto no solo hace que la experiencia sea más interactiva, sino que también evita la necesidad de comprar múltiples juegos de mesa. teniendo todo los juegos en uno facilitando también el transporte de estos
+En resumen, nuestra meta es fusionar lo digital con lo real para hacer que estas actividades sean más accesibles y inmersivas.
+
+
+
+
+*, incluyendo su propósito, contexto dentro del curso y motivación.*
 
 ---
 
