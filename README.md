@@ -8,7 +8,7 @@ Repositorio del grupo 8 para el proyecto del ramo *Proyecto Inicial* – 2025.
 
 | rodrigo rosales   | @roddd10       | rrosalesa@usm.cl |  202530012-5 |
 | Emiliano Gomez    | @garishcave    | egomezl@usm.cl   | 202403038-8  |
-| Amaro Corio       | @AmaroCo       | aocrio@usm.cl    | 202403027-2  |
+| Amaro Corio       | @AmaroCo       | acorio@usm.cl    | 202403027-2  |
 | Ignacia Lanas     | @InaLanas      | ilanas@usm.cl    | 202530018-4  |
 
 ---   dfdf
