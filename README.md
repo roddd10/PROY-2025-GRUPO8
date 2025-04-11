@@ -8,7 +8,7 @@ Repositorio del grupo 8 para el proyecto del ramo *Proyecto Inicial* – 2025.
 | ----------------- | -------------- | ------------------------ | ------------ |
 | Nombre1 Apellido1 | @roddd10       | rrosalesa@usm.cl         | 22.256.704-1 |
 | Nombre2 Apellido2 | @usuario2      | nombre2.apellido2@usm.cl | 200000000000 |
-| Nombre3 Apellido3 | @usuario3      | nombre3.apellido3@usm.cl | 200000000000 |
+| Amaro Corio | @AmaroCo      | aocrio@usm.cl | 202403027-2 |
 | Nombre4 Apellido4 | @usuario4      | nombre4.apellido4@usm.cl | 200000000000 |
 
 ---   dfdf
