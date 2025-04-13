@@ -15,7 +15,7 @@ Repositorio del grupo 8 para el proyecto del ramo *Proyecto Inicial* – 2025.
 
 ## 📝 Descripción breve del proyecto
 
-> Nuestro proyecto (insertar nombre xd lol) consiste en un tablero digital interactivo desarollado con Raspberry Pi, capaz de proyectar distintos juegos de mesa y registrar automáticamente los movimientos de los jugadores. Su propósito es modernizar la experiencia de juego, eliminando la necesidad de componentes físicos y facilitando el acceso, el transporte y el seguimiento de las partidas en tiempo real. La motivación principal es fusionar lo digital con lo real para hacer estas actividades más accesibles, dinámicas e inmersivas.
+> Nuestro proyecto (insertar nombre xd lol) consiste en un **tablero digital interactivo** desarollado con Raspberry Pi, capaz de proyectar distintos juegos de mesa y registrar automáticamente los movimientos de los jugadores. Su propósito es **modernizar la experiencia de juego**, eliminando la necesidad de componentes físicos y facilitando el acceso, el transporte y el seguimiento de las partidas en tiempo real. La motivación principal es **fusionar lo digital con lo real** para hacer estas actividades más accesibles, dinámicas e inmersivas.
 
 
 
@@ -30,7 +30,7 @@ Repositorio del grupo 8 para el proyecto del ramo *Proyecto Inicial* – 2025.
 - Objetivos específicos:
   - *Diseñar un interfaz digital que permita proyectar diversos tableros de juegos de mesa sin necesidad de tenerlos físicamente.*
   - *Implementar un IA que detecten y registren los movimientos de los jugadores en tiempo real.*
-  - *Crear un sistema que almacene el historial de cada partida.
+  - *Crear un sistema que almacene el historial de cada partida.*
   - *Integrar elementos de interacción entre el jugador y sistema para mejorar la experiencia del usuario.*
 
 ---
@@ -38,6 +38,7 @@ Repositorio del grupo 8 para el proyecto del ramo *Proyecto Inicial* – 2025.
 ## 🧩 Alcance del proyecto
 
 > *Definir qué aspectos cubre el proyecto y qué queda fuera del alcance (limitaciones).*
+> 
 > El proyecto abarca el desarollo de un tablero digital interactivo capaz de proyectar distintos juegos de mesa utilizando una Raspberry Pi, con especial enfoque en juegos como el gato, ajedrez y ludo. Las limitaciones de este serían las siguentes:
 > - La cantidad de juegos disponibles será limitada.
 > - El sistema no incluirá inteligencia artificial para jugar contra el usuario.
