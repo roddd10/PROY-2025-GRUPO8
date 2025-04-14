@@ -36,13 +36,24 @@ Repositorio del grupo 8 para el proyecto del ramo *Proyecto Inicial* – 2025.
 ---
 
 ## 🧩 Alcance del proyecto
-
-> *Definir qué aspectos cubre el proyecto y qué queda fuera del alcance (limitaciones).*
 > 
-> El proyecto abarca el desarollo de un tablero digital interactivo capaz de proyectar distintos juegos de mesa utilizando una Raspberry Pi, con especial enfoque en juegos como el gato, ajedrez y ludo. Las limitaciones de este serían las siguentes:
-> - La cantidad de juegos disponibles será limitada.
-> - El sistema no incluirá inteligencia artificial para jugar contra el usuario.
-> - No se po lol ayudenme
+>  Aspectos que cubre el proyecto:
+> 
+- Desarrollo de un tablero digital interactivo utilizando Raspberry Pi como base.
+- Proyección digital de distintos juegos de mesa sobre una superficie interactiva.
+- Registro automático de los movimientos de los jugadores mediante sensores o visión por computadora.
+- Eliminación de componentes físicos (tableros, cartas, dados (talvez?), etc.).
+- Facilita el acceso y transporte del sistema de juego.
+- Seguimiento y registro en tiempo real del estado de la partida.
+- Enfoque en hacer la experiencia más dinámica, inmersiva y moderna.
+- Posibilidad de incorporar varios juegos compatibles en una misma plataforma, con especial enfoque en juegos como el gato, ajedrez y ludo.
+>
+>  Limitaciones (fuera del alcance del proyecto):
+- No incluye desarrollo de IA avanzada para jugar contra el sistema.
+- No se contempla por ahora la jugabilidad en línea/remota (enfocado en experiencias presenciales).
+- Limitaciones de hardware del Raspberry Pi (por ejemplo, en procesamiento gráfico complejo o reconocimiento avanzado de gestos).
+- La cantidad de juegos disponibles será limitada.
+- No se po lol ayudenme
 
 ---
 
