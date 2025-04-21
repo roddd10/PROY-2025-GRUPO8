@@ -29,7 +29,7 @@ Repositorio del grupo 8 para el proyecto del ramo *Proyecto Inicial* – 2025.
   - *Desarollar un sistema de tablero digital interactivo mediante el uso de Raspberry Pi e inteligencia artificial que permita proyectar distintos juegos de mesa y registrar automaticamente los movimientos de los jugadores, con el fin de modernizar y facilitar la experiencia de juego.*
 - Objetivos específicos:
   - *Diseñar un interfaz digital que permita proyectar diversos tableros de juegos de mesa sin necesidad de tenerlos físicamente.*
-  - *Implementar un IA que detecten y registren los movimientos de los jugadores en tiempo real.*
+  - *Implementar un IA que detecte y regitre los movimientos de los jugadores en tiempo real.*
   - *Crear un sistema que almacene el historial de cada partida.*
   - *Integrar elementos de interacción entre el jugador y sistema para mejorar la experiencia del usuario.*
 
@@ -90,7 +90,7 @@ Repositorio del grupo 8 para el proyecto del ramo *Proyecto Inicial* – 2025.
 ## 📅 Cronograma de trabajo
 
 
-[Carta Gantt](https://google.com)
+[Carta Gantt](https://usmcl-my.sharepoint.com/:x:/r/personal/ilanas_usm_cl/_layouts/15/Doc.aspx?sourcedoc=%7B0E152141-DA4E-4BAB-933A-AE39D80E6642%7D&file=Carta%20Gantt.xlsx&fromShare=true&action=default&mobileredirect=true)
 
 ---
 
