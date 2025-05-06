@@ -53,19 +53,18 @@ Repositorio del grupo 8 para el proyecto del ramo *Proyecto Inicial* – 2025.
 - No se contempla por ahora la jugabilidad en línea/remota (enfocado en experiencias presenciales).
 - Limitaciones de hardware del Raspberry Pi (por ejemplo, en procesamiento gráfico complejo o reconocimiento avanzado de gestos).
 - La cantidad de juegos disponibles será limitada.
-- No se po lol ayudenme
 
 ---
 
 ## 🛠️ Tecnologías y herramientas utilizadas
 
 - Lenguaje(s) de programación:
-  - Ej: Python, JavaScript, C++
-- Microcontroladores
-  - Raspberry Pi Pico W 2
-- Sensores
-
----
+  - Python
+- Librerias:
+  - OpenCV
+  - Pygames
+  - Cv2
+  - Nunpy
 
 ## 🗂️ Estructura del repositorio
 
