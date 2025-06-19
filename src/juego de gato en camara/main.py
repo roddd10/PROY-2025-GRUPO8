@@ -25,6 +25,7 @@ pygame.init()
 ventana = pygame.display.set_mode((ANCHO_VENTANA, ALTO_VENTANA))
 pygame.display.set_caption('Tablero Digital - Picogames')
 
+
 # Inicializar cámara
 cap = cv2.VideoCapture(0)
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, RESOLUCION_CAMARA[0])
@@ -48,7 +49,7 @@ gesto_reconocido = ""
 def dibujar_tablero():
     ventana.fill(COLOR_FONDO)
     
-    # Dibujar lÃ­neas del tablero
+    # Dibujar lí­neas del tablero
     for i in range(1, TABLERO_SIZE):
         pygame.draw.line(ventana, COLOR_LINEAS, 
                         (MARGEN + i * CELDA_SIZE, MARGEN),
@@ -63,9 +64,11 @@ def dibujar_tablero():
             centro_x = MARGEN + col * CELDA_SIZE + CELDA_SIZE // 2
             centro_y = MARGEN + fila * CELDA_SIZE + CELDA_SIZE // 2
             
+            # Dibujar circulos
             if tablero[fila][col] == 1:
                 pygame.draw.circle(ventana, COLOR_JUGADOR1, (centro_x, centro_y), CELDA_SIZE // 3, 2)
             elif tablero[fila][col] == 2:
+                #Dibujar cruces 
                 pygame.draw.line(ventana, COLOR_JUGADOR2, 
                                (centro_x - CELDA_SIZE // 3, centro_y - CELDA_SIZE // 3),
                                (centro_x + CELDA_SIZE // 3, centro_y + CELDA_SIZE // 3), 2)
@@ -73,6 +76,7 @@ def dibujar_tablero():
                                (centro_x + CELDA_SIZE // 3, centro_y - CELDA_SIZE // 3),
                                (centro_x - CELDA_SIZE // 3, centro_y + CELDA_SIZE // 3), 2)
 
+# Dectectar las manos de los jugadores
 def detectar_gesto(hand_landmarks):
     # Pulgar e índice
     pulgar = hand_landmarks.landmark[mp_hands.HandLandmark.THUMB_TIP]
@@ -136,7 +140,7 @@ def procesar_mano(frame, hand_landmarks):
             if 0 <= fila < TABLERO_SIZE and 0 <= col < TABLERO_SIZE:
                 conteo_por_celda[fila][col] += 1
 
-        # Buscar la celda con más puntos clave
+        # Buscar la celda con más puntos claves en la mano del jugador
         max_fila, max_col = 0, 0
         max_conteo = 0
         for f in range(TABLERO_SIZE):
@@ -204,11 +208,7 @@ while True:
             if not game_over:
                 procesar_mano(frame, hand_landmarks)
     
-    cv2.putText(frame, f"Turno: Jugador {turno} ({'circulo' if turno == 1 else 'cruz'})", 
-               (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 0), 2)
-    cv2.putText(frame, f"Gesto detectado: {gesto_reconocido}", 
-               (10, 60), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 0), 2)
-     # Dibujar líneas guía del tablero en la cámara
+    # Dibujar líneas guía del tablero en la cámara
     celda_w = RESOLUCION_CAMARA[0] // TABLERO_SIZE
     celda_h = RESOLUCION_CAMARA[1] // TABLERO_SIZE
 
@@ -221,6 +221,12 @@ while True:
     for i in range(1, TABLERO_SIZE):
         y = i * celda_h
         cv2.line(frame, (0, y), (RESOLUCION_CAMARA[0], y), (255, 255, 255), 2)
+    
+    # Indicar turnos de los jugadores en la cámara
+    cv2.putText(frame, f"Turno: Jugador {turno} ({'circulo' if turno == 1 else 'cruz'})", 
+               (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 0), 2)
+    cv2.putText(frame, f"Gesto detectado: {gesto_reconocido}", 
+               (10, 60), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 0), 2)
     
     cv2.imshow('Deteccion de Gestos', frame)
     if cv2.waitKey(1) & 0xFF == ord('q'):
