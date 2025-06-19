@@ -1,0 +1,6 @@
+opencv-python
+python-chess
+numpy
+scikit-image
+berserk
+pynput
