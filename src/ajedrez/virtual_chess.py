@@ -5,7 +5,7 @@ import cv2
 class ChessApp:
     def __init__(self):
         pygame.init()
-        self.size = 640
+        self.size = 570
         self.square_size = self.size // 8
         self.screen = pygame.display.set_mode((self.size, self.size))
         pygame.display.set_caption("Tablero de Ajedrez Virtual")
@@ -37,12 +37,9 @@ class ChessApp:
                 print(f"Imagen negra no encontrada: {path}")
 
         return images
-
-    # Resto de métodos...
   
-
     def draw_board(self):
-        colors = [pygame.Color("#C4C4B5"), pygame.Color("#0B1303")]
+        colors = [pygame.Color("#9C9C97"), pygame.Color("#448305")]
         for r in range(8):
             for c in range(8):
                 color = colors[(r + c) % 2]
@@ -83,8 +80,12 @@ class ChessApp:
 
             if gesture and pos:
                 cursor_rect = pygame.Rect(pos[0], pos[1], 10, 10)
-                pygame.draw.rect(self.screen, pygame.Color("red"), cursor_rect)
 
+                if gesture== "open":
+                    pygame.draw.rect(self.screen, pygame.Color("red"), cursor_rect)
+                elif gesture =="closed":
+                    pygame.draw.rect(self.screen, pygame.Color("blue"), cursor_rect)
+            
                 if gesture == "closed":
                     if not grabbing:
                         grabbing = True
@@ -105,7 +106,7 @@ class ChessApp:
                         self.selected_square = None
 
             pygame.display.flip()
-            clock.tick(30)
+            clock.tick(60)
 
         cap.release()
         cv2.destroyAllWindows()

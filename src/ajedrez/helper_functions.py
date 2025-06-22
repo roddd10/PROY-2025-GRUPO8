@@ -1,7 +1,5 @@
-"""Helper functions used in the move detection logic."""
 import cv2
 import numpy as np
-
 from math import sqrt
 
 

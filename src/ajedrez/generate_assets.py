@@ -14,13 +14,12 @@ class ChessApp:
 
         self.piece_images = self.load_piece_images()
 
-
     def load_piece_images(self):
         images = {}  
         pieces = ["P", "R", "N", "B", "Q", "K"]
 
         for piece in pieces:
-                # Cargar piezas blancas
+            # Cargar piezas blancas
             white_path = f"assets/white/{piece}.png"
             try:
                 img_white = pygame.image.load(white_path)
@@ -36,4 +35,4 @@ class ChessApp:
             except FileNotFoundError:
                 print(f"Imagen negra no encontrada: {black_path}")
 
-            return images
+        return images  
