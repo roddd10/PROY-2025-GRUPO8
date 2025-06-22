@@ -105,6 +105,7 @@ Repositorio del grupo 8 para el proyecto del ramo *Proyecto Inicial* – 2025.
 ## 📚 Bibliografía
 
  > Base del ajedrez: (https://github.com/tttiago/ChessBroadcaster)
+ > Base del snake: (https://github.com/Abbas-Ghazavi/SnakeGame_cv2)
  > Inteligencías artificiales (Chat-Gpt, GitHub Copilot)
 ---
 
