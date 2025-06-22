@@ -15,10 +15,8 @@ Repositorio del grupo 8 para el proyecto del ramo *Proyecto Inicial* – 2025.
 
 ## 📝 Descripción breve del proyecto
 
-> Nuestro proyecto PyBord consiste en un **tablero digital interactivo** desarollado con Python y librerias de software, capaz de proyectar distintos juegos de mesa y registrar automáticamente los movimientos de los jugadores. Su propósito es **modernizar la experiencia de juego**, eliminando la necesidad de componentes físicos y facilitando el acceso, el transporte y el seguimiento de las partidas en tiempo real. La motivación principal es **fusionar lo digital con lo real** para hacer estas actividades más accesibles, dinámicas e inmersivas.
-=======
-> Nuestro proyecto Pybord consiste en un **tablero digital interactivo** desarollado con Python y bibliotecas de software capaz de proyectar distintos juegos de mesa y registrar automáticamente los movimientos de los jugadores. Su propósito es **modernizar la experiencia de juego**, eliminando la necesidad de componentes físicos y facilitando el acceso, el transporte y el seguimiento de las partidas en tiempo real. La motivación principal es **fusionar lo digital con lo real** para hacer estas actividades más accesibles, dinámicas e inmersivas.
-
+> Este proyecto consiste en la modernización de juegos clásicos de mesa y arcade —como Snake, Pong, Tres en Raya y Ajedrez— transformándolos en experiencias interactivas controladas completamente mediante gestos de la mano. Utilizando tecnologías de visión por computadora, principalmente MediaPipe para el seguimiento de manos y OpenCV para el procesamiento y renderizado visual, los jugadores pueden manipular y controlar los juegos sin necesidad de contacto físico, a través de movimientos intuitivos y naturales.
+> El desarrollo contempla una arquitectura común que integra captura de cámara, detección y procesamiento de gestos, lógica específica de cada juego y representación gráfica en tiempo real. Esto permite crear interfaces accesibles y educativas, que fomentan la interacción natural y el aprendizaje tecnológico, además de promover la colaboración entre los integrantes del equipo, quienes aportaron soluciones y mejoras para cada juego.
 
 
 
