@@ -98,6 +98,11 @@ Repositorio del grupo 8 para el proyecto del ramo *Proyecto Inicial* – 2025.
 
 [Carta Gantt](https://usmcl-my.sharepoint.com/:x:/r/personal/ilanas_usm_cl/_layouts/15/Doc.aspx?sourcedoc=%7B0E152141-DA4E-4BAB-933A-AE39D80E6642%7D&file=Carta%20Gantt.xlsx&fromShare=true&action=default&mobileredirect=true)
 
+## 📋Manuales de usuario
+>Aqui se encuentras los manuales para todos los juegos que forman el proyecto: 
+
+>https://github.com/roddd10/PROY-2025-GRUPO8/tree/main/docs/Manuales%20de%20usuario
+
 ---
 
 ## 📚 Bibliografía
