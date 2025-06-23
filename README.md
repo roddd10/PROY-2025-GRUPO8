@@ -72,7 +72,7 @@ Repositorio del grupo 8 para el proyecto del ramo *Proyecto Inicial* – 2025.
   - Pygames
   - Cv2
   - Numpy
-  - Chess (python)
+  - python-Chess
 
 
 ## 🗂️ Estructura del repositorio

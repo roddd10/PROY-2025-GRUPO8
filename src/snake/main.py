@@ -31,7 +31,7 @@ class SnakeGameClass:
         self.direction = 'r'
         self.high_scores = self.loadHighScores()
 
-        self.foodIcon = cv.imread("food_icon.png", cv.IMREAD_UNCHANGED)
+        self.foodIcon = cv.imread("assets_food/food_icon.png", cv.IMREAD_UNCHANGED)
         self.foodIcon = cv.resize(self.foodIcon, (20, 20)) 
         self.foodMask = self.foodIcon[:, :, 3]
 
