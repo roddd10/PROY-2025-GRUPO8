@@ -104,6 +104,8 @@ Repositorio del grupo 8 para el proyecto del ramo *Proyecto Inicial* – 2025.
 >https://github.com/roddd10/PROY-2025-GRUPO8/tree/main/docs/Manuales%20de%20usuario
 
 ---
+## 📷 Video de ejemplo
+ >video: (https://www.youtube.com/shorts/DCABTATnX4s)
 
 ## 📚 Bibliografía
 
